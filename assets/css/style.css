@@ -42,7 +42,7 @@ h6 {
 
 @media screen and (max-width: 760px) {
   .skillsRow div {
-    background-color: gold;
+
     width: 30%;
   }
 }
