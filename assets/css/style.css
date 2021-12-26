@@ -39,13 +39,37 @@ h6 {
   width: 30%;
   min-width: 220px;
 }
+.underline{
+text-decoration: underline;
+}
+.skillsRow div img {
+  /* background-color: gold; */
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
 
 @media screen and (max-width: 760px) {
   .skillsRow div {
-    background-color: gold;
     width: 30%;
   }
 }
+@media screen and (max-width: 520px) {
+  .skillsRow {
+    gap: 0;
+  }
+  .skillsRow div {
+    width: 50%;
+    min-width: 0px;
+    text-align: center;
+  }
+  .skillsRow div img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -528,6 +552,7 @@ section {
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+  min-height: 210px;
 }
 
 .portfolio #portfolio-flters {
